@@ -1,0 +1,29 @@
+
+@media (max-width: 2000px) {
+    body{
+        background-color: firebrick;
+    }
+}
+* all rules outside of @media queries apply to devices 1201px and above */
+@media (max-width: 1200px) {
+    body{
+        background-color: blue;
+    }
+}
+@media (max-width: 992px) {	
+    body{
+        background-color: red;
+    }
+}
+@media (max-width: 768px) {
+    body{
+        background-color: darkolivegreen;
+    }
+}
+
+/* You may also apply this: */
+@media (max-width: 425px) {
+    body{
+        background-color: rgb(67, 67, 141);
+    }
+}
